@@ -9,11 +9,16 @@ namespace WinFormsApp1
     class Robot
     {
      
-        public int kollife;
+        private int kollife;
 
         public int GetLife()
         {
             return kollife;
+        }
+
+        public void SetLife(int a)
+        {
+            kollife = a;
         }
 
         public void Kol(int start, Robot[] mod)
